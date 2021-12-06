@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JDevTask' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JDevTask
+
+  target 'JDevTaskTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JDevTaskUITests' do
+    # Pods for testing
+  end
+  
+  pod 'Alamofire'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Swinject'
+  pod 'ReachabilitySwift'
+  pod 'MBProgressHUD'
+  pod 'IQKeyboardManager'
+
+end
